@@ -1,0 +1,30 @@
+.lines{
+   height: 2px;
+   background-color: black;
+   margin-bottom: 7px;
+}
+h3{
+    margin-top: -5px;
+}
+header{
+    /* display: flex; */    
+    /* flex-direction: column;
+    justify-content: center; */
+    /* align-items: center; */
+    /* height: 30vh; */
+    color: white;
+}
+.circles li{
+    list-style: none;
+    border-radius:50px 50px;
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(245, 0, 0, 0.2);
+    animation: animate 25s linear infinite;
+    z-index: 2;
+    transform-origin: center !important;
+    transition: transform 1s ease !important;
+}
